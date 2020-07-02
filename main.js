@@ -25,7 +25,7 @@ const rooms = [
 
 const allDots = document.querySelector('.all_dots');
 let dots = [];
-for (let i = 0; i < allDots.length; i++) {
+for (let i = 0; i < rooms.length; i++) {
     let dot = document.createElement('button');
     dot.classList.add('dot_circle');
     if (i === 0) {
